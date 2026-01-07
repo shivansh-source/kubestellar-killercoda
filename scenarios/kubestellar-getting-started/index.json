@@ -1,0 +1,31 @@
+{
+  "_comment": "Killercoda scenario configuration - see https://killercoda.com/creators for format details",
+  "title": "KubeStellar Getting Started",
+  "description": "Introduction to KubeStellar multi-cluster management",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Prerequisites",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Install KubeStellar",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Verify",
+        "text": "step3/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "_comment": "Ubuntu base image",
+    "imageid": "ubuntu"
+  }
+}
