@@ -1,0 +1,30 @@
+{
+  "title": "KubeStellar: Multi-WEC Topology (Scale & Confidence)",
+  "description": "Demonstrate how a single workload scales across multiple Workload Execution Clusters using BindingPolicy intent.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "install KubeStellar and Create Multiple WECs",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Initial Placement: Single WEC",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Scale Out: Multi-WEC Propagation via Policy",
+        "text": "step3/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "_comment": "Ubuntu base image",
+    "imageid": "ubuntu"
+  }
+}
